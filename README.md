@@ -6,11 +6,8 @@ with a waiter-worn OLED receiver that groups requests by table and shows waiting
 times. One waiter button marks the front table's requests as coming, then fulfilled;
 the corresponding table LEDs move from solid to flashing to off.
 
-My contribution focused on defining the interaction flow, integrating the ESP32s,
-buttons, LEDs, OLED, and notification hardware, and testing and debugging the
-prototype through repeated hardware and firmware iterations. Firmware development
-was AI-assisted; this repository includes the source, hardware notes, native
-regression tests, wiring drawings, and display previews used during development.
+This repository includes the firmware, hardware notes, native regression tests,
+wiring diagrams, and OLED display previews for the prototype.
 
 ![OLED idle, request, acknowledgment, and completion screens](docs/watch-display-preview.png)
 
