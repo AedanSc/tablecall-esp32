@@ -1,0 +1,179 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1900" viewBox="0 0 1600 1900"><rect width="1600" height="1900" fill="white"/>
+<text x='45' y='54' font-family='Segoe UI,Arial,sans-serif' font-size='34' font-weight='700' fill='#0f172a'>TABLE REQUEST SYSTEM | No-transistor wiring</text>
+<text x='45' y='86' font-family='Segoe UI,Arial,sans-serif' font-size='21' font-weight='400' fill='#9a3412'>Direct buzzer drive is CONDITIONAL: verify the actual buzzer current at 3.3 V before connecting it.</text>
+<rect x='40' y='115' width='1520' height='620' fill='#f8fafc' stroke='#cbd5e1' stroke-width='2'/>
+<text x='65' y='157' font-family='Segoe UI,Arial,sans-serif' font-size='27' font-weight='700' fill='#0369a1'>1  TABLE UNIT - ESP32 sender</text>
+<text x='65' y='190' font-family='Segoe UI,Arial,sans-serif' font-size='20' font-weight='400' fill='#0f172a'>Power this board by USB. Buttons use INPUT_PULLUP; a press connects the GPIO to GND.</text>
+<rect x='90' y='230' width='270' height='450' fill='#e0f2fe' stroke='#0284c7' stroke-width='2'/>
+<text x='113' y='268' font-family='Segoe UI,Arial,sans-serif' font-size='23' font-weight='700' fill='#075985'>ESP32 Dev Module</text>
+<text x='113' y='297' font-family='Segoe UI,Arial,sans-serif' font-size='19' font-weight='400' fill='#075985'>TABLE / sender</text>
+<text x='250' y='324' font-family='Segoe UI,Arial,sans-serif' font-size='20' font-weight='400' fill='#0f172a'>GPIO 26</text>
+<line x1='360' y1='330' x2='650' y2='330' stroke='#0284c7' stroke-width='3'/>
+<circle cx='650' cy='330' r='4' fill='#64748b'/>
+<circle cx='710' cy='330' r='4' fill='#64748b'/>
+<line x1='650' y1='330' x2='698' y2='308' stroke='#334155' stroke-width='3'/>
+<line x1='675' y1='293' x2='675' y2='307' stroke='#334155' stroke-width='3'/>
+<line x1='710' y1='330' x2='900' y2='330' stroke='#0284c7' stroke-width='3'/>
+<line x1='900' y1='330' x2='900' y2='342' stroke='#475569' stroke-width='3'/>
+<line x1='882' y1='342' x2='918' y2='342' stroke='#475569' stroke-width='3'/>
+<line x1='888' y1='350' x2='912' y2='350' stroke='#475569' stroke-width='3'/>
+<line x1='895' y1='358' x2='905' y2='358' stroke='#475569' stroke-width='3'/>
+<text x='970' y='338' font-family='Segoe UI,Arial,sans-serif' font-size='23' font-weight='700' fill='#0f172a'>WAITER / service button</text>
+<text x='250' y='399' font-family='Segoe UI,Arial,sans-serif' font-size='20' font-weight='400' fill='#0f172a'>GPIO 27</text>
+<line x1='360' y1='405' x2='650' y2='405' stroke='#0284c7' stroke-width='3'/>
+<circle cx='650' cy='405' r='4' fill='#64748b'/>
+<circle cx='710' cy='405' r='4' fill='#64748b'/>
+<line x1='650' y1='405' x2='698' y2='383' stroke='#334155' stroke-width='3'/>
+<line x1='675' y1='368' x2='675' y2='382' stroke='#334155' stroke-width='3'/>
+<line x1='710' y1='405' x2='900' y2='405' stroke='#0284c7' stroke-width='3'/>
+<line x1='900' y1='405' x2='900' y2='417' stroke='#475569' stroke-width='3'/>
+<line x1='882' y1='417' x2='918' y2='417' stroke='#475569' stroke-width='3'/>
+<line x1='888' y1='425' x2='912' y2='425' stroke='#475569' stroke-width='3'/>
+<line x1='895' y1='433' x2='905' y2='433' stroke='#475569' stroke-width='3'/>
+<text x='970' y='413' font-family='Segoe UI,Arial,sans-serif' font-size='23' font-weight='700' fill='#0f172a'>WATER button</text>
+<text x='250' y='474' font-family='Segoe UI,Arial,sans-serif' font-size='20' font-weight='400' fill='#0f172a'>GPIO 25</text>
+<line x1='360' y1='480' x2='650' y2='480' stroke='#0284c7' stroke-width='3'/>
+<circle cx='650' cy='480' r='4' fill='#64748b'/>
+<circle cx='710' cy='480' r='4' fill='#64748b'/>
+<line x1='650' y1='480' x2='698' y2='458' stroke='#334155' stroke-width='3'/>
+<line x1='675' y1='443' x2='675' y2='457' stroke='#334155' stroke-width='3'/>
+<line x1='710' y1='480' x2='900' y2='480' stroke='#0284c7' stroke-width='3'/>
+<line x1='900' y1='480' x2='900' y2='492' stroke='#475569' stroke-width='3'/>
+<line x1='882' y1='492' x2='918' y2='492' stroke='#475569' stroke-width='3'/>
+<line x1='888' y1='500' x2='912' y2='500' stroke='#475569' stroke-width='3'/>
+<line x1='895' y1='508' x2='905' y2='508' stroke='#475569' stroke-width='3'/>
+<text x='970' y='488' font-family='Segoe UI,Arial,sans-serif' font-size='23' font-weight='700' fill='#0f172a'>CHECK button</text>
+<text x='250' y='550' font-family='Segoe UI,Arial,sans-serif' font-size='20' font-weight='400' fill='#0f172a'>GPIO 21</text>
+<line x1='360' y1='555' x2='510' y2='555' stroke='#0284c7' stroke-width='3'/>
+<line x1='510' y1='555' x2='530' y2='555' stroke='#334155' stroke-width='3'/>
+<rect x='530' y='545' width='70' height='20' fill='#ffffff' stroke='#334155' stroke-width='2'/>
+<line x1='600' y1='555' x2='620' y2='555' stroke='#334155' stroke-width='3'/>
+<text x='525' y='534' font-family='Segoe UI,Arial,sans-serif' font-size='19' font-weight='400' fill='#0f172a'>330 ohm</text>
+<line x1='620' y1='555' x2='720' y2='555' stroke='#0284c7' stroke-width='3'/>
+<line x1='720' y1='555' x2='740' y2='555' stroke='#334155' stroke-width='3'/>
+<line x1='740' y1='540' x2='740' y2='570' stroke='#334155' stroke-width='3'/>
+<line x1='740' y1='540' x2='765' y2='555' stroke='#334155' stroke-width='3'/>
+<line x1='740' y1='570' x2='765' y2='555' stroke='#334155' stroke-width='3'/>
+<line x1='765' y1='540' x2='765' y2='570' stroke='#334155' stroke-width='3'/>
+<line x1='765' y1='555' x2='790' y2='555' stroke='#334155' stroke-width='3'/>
+<line x1='748' y1='537' x2='762' y2='523' stroke='#334155' stroke-width='2'/>
+<line x1='762' y1='523' x2='753' y2='525' stroke='#334155' stroke-width='2'/>
+<line x1='762' y1='523' x2='760' y2='532' stroke='#334155' stroke-width='2'/>
+<line x1='765' y1='539' x2='779' y2='525' stroke='#334155' stroke-width='2'/>
+<line x1='779' y1='525' x2='770' y2='527' stroke='#334155' stroke-width='2'/>
+<line x1='779' y1='525' x2='777' y2='534' stroke='#334155' stroke-width='2'/>
+<line x1='790' y1='555' x2='900' y2='555' stroke='#0284c7' stroke-width='3'/>
+<line x1='900' y1='555' x2='900' y2='567' stroke='#475569' stroke-width='3'/>
+<line x1='882' y1='567' x2='918' y2='567' stroke='#475569' stroke-width='3'/>
+<line x1='888' y1='575' x2='912' y2='575' stroke='#475569' stroke-width='3'/>
+<line x1='895' y1='583' x2='905' y2='583' stroke='#475569' stroke-width='3'/>
+<text x='970' y='565' font-family='Segoe UI,Arial,sans-serif' font-size='22' font-weight='700' fill='#0f172a'>Waiter LED</text>
+<text x='250' y='605' font-family='Segoe UI,Arial,sans-serif' font-size='20' font-weight='400' fill='#0f172a'>GPIO 18</text>
+<line x1='360' y1='610' x2='510' y2='610' stroke='#0284c7' stroke-width='3'/>
+<line x1='510' y1='610' x2='530' y2='610' stroke='#334155' stroke-width='3'/>
+<rect x='530' y='600' width='70' height='20' fill='#ffffff' stroke='#334155' stroke-width='2'/>
+<line x1='600' y1='610' x2='620' y2='610' stroke='#334155' stroke-width='3'/>
+<text x='525' y='589' font-family='Segoe UI,Arial,sans-serif' font-size='19' font-weight='400' fill='#0f172a'>330 ohm</text>
+<line x1='620' y1='610' x2='720' y2='610' stroke='#0284c7' stroke-width='3'/>
+<line x1='720' y1='610' x2='740' y2='610' stroke='#334155' stroke-width='3'/>
+<line x1='740' y1='595' x2='740' y2='625' stroke='#334155' stroke-width='3'/>
+<line x1='740' y1='595' x2='765' y2='610' stroke='#334155' stroke-width='3'/>
+<line x1='740' y1='625' x2='765' y2='610' stroke='#334155' stroke-width='3'/>
+<line x1='765' y1='595' x2='765' y2='625' stroke='#334155' stroke-width='3'/>
+<line x1='765' y1='610' x2='790' y2='610' stroke='#334155' stroke-width='3'/>
+<line x1='748' y1='592' x2='762' y2='578' stroke='#334155' stroke-width='2'/>
+<line x1='762' y1='578' x2='753' y2='580' stroke='#334155' stroke-width='2'/>
+<line x1='762' y1='578' x2='760' y2='587' stroke='#334155' stroke-width='2'/>
+<line x1='765' y1='594' x2='779' y2='580' stroke='#334155' stroke-width='2'/>
+<line x1='779' y1='580' x2='770' y2='582' stroke='#334155' stroke-width='2'/>
+<line x1='779' y1='580' x2='777' y2='589' stroke='#334155' stroke-width='2'/>
+<line x1='790' y1='610' x2='900' y2='610' stroke='#0284c7' stroke-width='3'/>
+<line x1='900' y1='610' x2='900' y2='622' stroke='#475569' stroke-width='3'/>
+<line x1='882' y1='622' x2='918' y2='622' stroke='#475569' stroke-width='3'/>
+<line x1='888' y1='630' x2='912' y2='630' stroke='#475569' stroke-width='3'/>
+<line x1='895' y1='638' x2='905' y2='638' stroke='#475569' stroke-width='3'/>
+<text x='970' y='620' font-family='Segoe UI,Arial,sans-serif' font-size='22' font-weight='700' fill='#0f172a'>Water LED</text>
+<text x='250' y='660' font-family='Segoe UI,Arial,sans-serif' font-size='20' font-weight='400' fill='#0f172a'>GPIO 19</text>
+<line x1='360' y1='665' x2='510' y2='665' stroke='#0284c7' stroke-width='3'/>
+<line x1='510' y1='665' x2='530' y2='665' stroke='#334155' stroke-width='3'/>
+<rect x='530' y='655' width='70' height='20' fill='#ffffff' stroke='#334155' stroke-width='2'/>
+<line x1='600' y1='665' x2='620' y2='665' stroke='#334155' stroke-width='3'/>
+<text x='525' y='644' font-family='Segoe UI,Arial,sans-serif' font-size='19' font-weight='400' fill='#0f172a'>330 ohm</text>
+<line x1='620' y1='665' x2='720' y2='665' stroke='#0284c7' stroke-width='3'/>
+<line x1='720' y1='665' x2='740' y2='665' stroke='#334155' stroke-width='3'/>
+<line x1='740' y1='650' x2='740' y2='680' stroke='#334155' stroke-width='3'/>
+<line x1='740' y1='650' x2='765' y2='665' stroke='#334155' stroke-width='3'/>
+<line x1='740' y1='680' x2='765' y2='665' stroke='#334155' stroke-width='3'/>
+<line x1='765' y1='650' x2='765' y2='680' stroke='#334155' stroke-width='3'/>
+<line x1='765' y1='665' x2='790' y2='665' stroke='#334155' stroke-width='3'/>
+<line x1='748' y1='647' x2='762' y2='633' stroke='#334155' stroke-width='2'/>
+<line x1='762' y1='633' x2='753' y2='635' stroke='#334155' stroke-width='2'/>
+<line x1='762' y1='633' x2='760' y2='642' stroke='#334155' stroke-width='2'/>
+<line x1='765' y1='649' x2='779' y2='635' stroke='#334155' stroke-width='2'/>
+<line x1='779' y1='635' x2='770' y2='637' stroke='#334155' stroke-width='2'/>
+<line x1='779' y1='635' x2='777' y2='644' stroke='#334155' stroke-width='2'/>
+<line x1='790' y1='665' x2='900' y2='665' stroke='#0284c7' stroke-width='3'/>
+<line x1='900' y1='665' x2='900' y2='677' stroke='#475569' stroke-width='3'/>
+<line x1='882' y1='677' x2='918' y2='677' stroke='#475569' stroke-width='3'/>
+<line x1='888' y1='685' x2='912' y2='685' stroke='#475569' stroke-width='3'/>
+<line x1='895' y1='693' x2='905' y2='693' stroke='#475569' stroke-width='3'/>
+<text x='970' y='675' font-family='Segoe UI,Arial,sans-serif' font-size='22' font-weight='700' fill='#0f172a'>Check LED</text>
+<text x='100' y='708' font-family='Segoe UI,Arial,sans-serif' font-size='18' font-weight='400' fill='#475569'>GND pins: all ground symbols in this panel connect to the sender GND.</text>
+<text x='140' y='771' font-family='Segoe UI,Arial,sans-serif' font-size='22' font-weight='700' fill='#0369a1'>TABLE UNIT  &lt;---------- ESP-NOW wireless link ----------&gt;  WAITER UNIT</text>
+<rect x='40' y='795' width='1520' height='865' fill='#f8fafc' stroke='#cbd5e1' stroke-width='2'/>
+<text x='65' y='839' font-family='Segoe UI,Arial,sans-serif' font-size='27' font-weight='700' fill='#0369a1'>2  WAITER WATCH - ESP32 receiver</text>
+<text x='65' y='873' font-family='Segoe UI,Arial,sans-serif' font-size='20' font-weight='400' fill='#0f172a'>Power this board by USB. OLED: GME12864-11-12-13 V3.22, SSD1306 I2C, 128 x 64. Follow pin labels.</text>
+<rect x='90' y='915' width='270' height='525' fill='#e0f2fe' stroke='#0284c7' stroke-width='2'/>
+<text x='113' y='948' font-family='Segoe UI,Arial,sans-serif' font-size='23' font-weight='700' fill='#075985'>ESP32 Dev Module</text>
+<rect x='1050' y='915' width='440' height='305' fill='#ecfdf5' stroke='#059669' stroke-width='2'/>
+<text x='1080' y='952' font-family='Segoe UI,Arial,sans-serif' font-size='24' font-weight='700' fill='#047857'>SSD1306 I2C OLED</text>
+<text x='1080' y='979' font-family='Segoe UI,Arial,sans-serif' font-size='19' font-weight='400' fill='#047857'>0.96 inch / 128 x 64</text>
+<text x='250' y='996' font-family='Segoe UI,Arial,sans-serif' font-size='19' font-weight='400' fill='#0f172a'>3V3</text>
+<line x1='360' y1='1000' x2='1050' y2='1000' stroke='#dc2626' stroke-width='3'/>
+<text x='1080' y='998' font-family='Segoe UI,Arial,sans-serif' font-size='20' font-weight='400' fill='#0f172a'>VCC / 3.3 V</text>
+<text x='250' y='1046' font-family='Segoe UI,Arial,sans-serif' font-size='19' font-weight='400' fill='#0f172a'>GND</text>
+<line x1='360' y1='1050' x2='1050' y2='1050' stroke='#475569' stroke-width='3'/>
+<text x='1080' y='1048' font-family='Segoe UI,Arial,sans-serif' font-size='20' font-weight='400' fill='#0f172a'>GND</text>
+<text x='250' y='1096' font-family='Segoe UI,Arial,sans-serif' font-size='19' font-weight='400' fill='#0f172a'>GPIO 14</text>
+<line x1='360' y1='1100' x2='1050' y2='1100' stroke='#0284c7' stroke-width='3'/>
+<text x='1080' y='1098' font-family='Segoe UI,Arial,sans-serif' font-size='20' font-weight='400' fill='#0f172a'>SCL</text>
+<text x='250' y='1146' font-family='Segoe UI,Arial,sans-serif' font-size='19' font-weight='400' fill='#0f172a'>GPIO 13</text>
+<line x1='360' y1='1150' x2='1050' y2='1150' stroke='#0284c7' stroke-width='3'/>
+<text x='1080' y='1148' font-family='Segoe UI,Arial,sans-serif' font-size='20' font-weight='400' fill='#0f172a'>SDA</text>
+<text x='250' y='1256' font-family='Segoe UI,Arial,sans-serif' font-size='20' font-weight='400' fill='#0f172a'>GPIO 27</text>
+<line x1='360' y1='1260' x2='550' y2='1260' stroke='#0284c7' stroke-width='3'/>
+<circle cx='550' cy='1260' r='4' fill='#64748b'/>
+<circle cx='610' cy='1260' r='4' fill='#64748b'/>
+<line x1='550' y1='1260' x2='598' y2='1238' stroke='#334155' stroke-width='3'/>
+<line x1='575' y1='1223' x2='575' y2='1237' stroke='#334155' stroke-width='3'/>
+<line x1='610' y1='1260' x2='685' y2='1260' stroke='#0284c7' stroke-width='3'/>
+<line x1='685' y1='1260' x2='685' y2='1272' stroke='#475569' stroke-width='3'/>
+<line x1='667' y1='1272' x2='703' y2='1272' stroke='#475569' stroke-width='3'/>
+<line x1='673' y1='1280' x2='697' y2='1280' stroke='#475569' stroke-width='3'/>
+<line x1='680' y1='1288' x2='690' y2='1288' stroke='#475569' stroke-width='3'/>
+<text x='405' y='1321' font-family='Segoe UI,Arial,sans-serif' font-size='22' font-weight='700' fill='#0f172a'>ONE watch button</text>
+<text x='405' y='1347' font-family='Segoe UI,Arial,sans-serif' font-size='19' font-weight='400' fill='#0f172a'>1st press: coming | 2nd: fulfilled</text>
+<text x='250' y='1395' font-family='Segoe UI,Arial,sans-serif' font-size='20' font-weight='400' fill='#0f172a'>GPIO 25</text>
+<line x1='360' y1='1400' x2='900' y2='1400' stroke='#0284c7' stroke-width='3'/>
+<text x='470' y='1380' font-family='Segoe UI,Arial,sans-serif' font-size='22' font-weight='700' fill='#0369a1'>3.3 V GPIO output -&gt; red (+)</text>
+<rect x='900' y='1350' width='300' height='100' fill='#fff7ed' stroke='#ea580c' stroke-width='2'/>
+<text x='925' y='1388' font-family='Segoe UI,Arial,sans-serif' font-size='23' font-weight='700' fill='#9a3412'>SFM-27 active buzzer</text>
+<text x='925' y='1420' font-family='Segoe UI,Arial,sans-serif' font-size='17' font-weight='400' fill='#9a3412'>Current compatibility UNVERIFIED</text>
+<line x1='1200' y1='1400' x2='1360' y2='1400' stroke='#475569' stroke-width='3'/>
+<line x1='1360' y1='1400' x2='1360' y2='1412' stroke='#475569' stroke-width='3'/>
+<line x1='1342' y1='1412' x2='1378' y2='1412' stroke='#475569' stroke-width='3'/>
+<line x1='1348' y1='1420' x2='1372' y2='1420' stroke='#475569' stroke-width='3'/>
+<line x1='1355' y1='1428' x2='1365' y2='1428' stroke='#475569' stroke-width='3'/>
+<text x='1235' y='1379' font-family='Segoe UI,Arial,sans-serif' font-size='21' font-weight='400' fill='#0f172a'>Black (-)</text>
+<rect x='95' y='1480' width='1400' height='135' fill='#fff7ed' stroke='#ea580c' stroke-width='2'/>
+<text x='115' y='1518' font-family='Segoe UI,Arial,sans-serif' font-size='23' font-weight='700' fill='#9a3412'>BEFORE CONNECTING THE BUZZER</text>
+<text x='115' y='1551' font-family='Segoe UI,Arial,sans-serif' font-size='21' font-weight='400' fill='#0f172a'>Confirm steady and startup current at 3.3 V are within the ESP32 GPIO drive specification.</text>
+<text x='115' y='1583' font-family='Segoe UI,Arial,sans-serif' font-size='20' font-weight='400' fill='#0f172a'>No transistor, 1 kohm resistor, or external buzzer supply in this version. Never apply 5 V or battery voltage to GPIO 25.</text>
+<text x='100' y='1639' font-family='Segoe UI,Arial,sans-serif' font-size='19' font-weight='400' fill='#475569'>All GND symbols in this panel connect to receiver GND. Firmware still switches GPIO 25 HIGH for a short beep.</text>
+<text x='45' y='1709' font-family='Segoe UI,Arial,sans-serif' font-size='24' font-weight='700' fill='#0f172a'>BUILD NOTES</text>
+<text x='45' y='1743' font-family='Segoe UI,Arial,sans-serif' font-size='21' font-weight='400' fill='#0f172a'>1. Each LED has its own 330 ohm resistor. LED anode (+) is on the left; cathode (- / flat side) on the right.</text>
+<text x='45' y='1777' font-family='Segoe UI,Arial,sans-serif' font-size='21' font-weight='400' fill='#0f172a'>2. Four-leg tactile buttons: use contacts that are open when released and connected when pressed.</text>
+<text x='45' y='1811' font-family='Segoe UI,Arial,sans-serif' font-size='21' font-weight='400' fill='#0f172a'>3. GND symbols are joined within each unit. No wired connection is required between table and watch.</text>
+<text x='45' y='1844' font-family='Segoe UI,Arial,sans-serif' font-size='20' font-weight='400' fill='#0f172a'>4. GPIO numbers repeat on the two boards. Follow board labels; this is a logical schematic, not a pin-position map.</text>
+<text x='45' y='1878' font-family='Segoe UI,Arial,sans-serif' font-size='20' font-weight='400' fill='#0f172a'>Parts: 2 ESP32s, 4 buttons, 3 LEDs, 3 x 330 ohm, SSD1306 OLED, GPIO-compatible active buzzer (verify SFM-27 first).</text>
+</svg>
